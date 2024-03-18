@@ -1,0 +1,43 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.python",
+        "ms-python.pylint",
+        "ms-python.black-formatter",
+        "GitHub.vscode-github-actions"
+      ],
+      "settings": {
+        "security.workspace.trust.untrustedFiles": "open",
+        "explorer.confirmDelete": false,
+        "workbench.startupEditor": "none",
+        "terminal.explorerKind": "external",
+        "files.autoSave": "afterDelay",
+        "editor.renderWhitespace": "all",
+        "editor.autoClosingQuotes": "beforeWhitespace",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "telemetry.telemetryLevel": "off",
+        "python.createEnvironment.contentButton": "hide",
+        "python.createEnvironment.trigger": "off",
+        "python.defaultInterpreterPath": "/root/.pyenv/bin/python3.11",
+        "python.languageServer": "Pylance",
+        "python.terminal.activateEnvironment": false,
+        "python.analysis.autoFormatStrings": true,
+        "python.analysis.completeFunctionParens": true,
+        "python.analysis.inlayHints.functionReturnTypes": true,
+        "python.analysis.inlayHints.pytestParameters": true,
+        "python.analysis.inlayHints.variableTypes": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "notebook.formatOnSave.enabled": true
+      }
+    }
+  }
+}
